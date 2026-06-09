@@ -1,16 +1,18 @@
 public class typecasting {
-    // Implicit Conversion
-    public static void main() {
+
+    public static void main (){
+        // Explicit Typecasting
+        long  value1= 1325456;
+        int value2=(int)value1;
+        System.out.println(value2);
+
+        //Implicit Typecasting
         byte num1 = 20;
-        long num2=num1;
+        long num2 = num1;
         System.out.println(num2);
-
-
-
-        //Explicit Conversion
-        int rubber=30;
-       short value2=(short)rubber;
-       System.out.println("Explicit value is "+value2);
-
+        
+        // Character Warmup
+        char hello= 'a';
+        System.out.println((char)hello+2);
     }
 }
