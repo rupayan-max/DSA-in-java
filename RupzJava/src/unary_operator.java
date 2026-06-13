@@ -20,6 +20,15 @@ public class unary_operator {
                                                // (++), you simply need to access the variable after the increment step
                                                // has already executed.
 
-                                              
+        // Pre-Decrement
+        int setofvalue= 30;
+        int setofvaluetwo= --setofvalue;
+        System.out.println(setofvaluetwo); // value is 29
+        
+        // Post-Decrement
+        int value1= 12;
+        int value2 = value1--;
+        System.out.println(value2); // value is 12
+        System.out.println(value1); // value is 11
     }
 }
