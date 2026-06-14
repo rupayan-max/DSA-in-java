@@ -10,8 +10,10 @@ public class input {
         // Taking Input from user
         Scanner sc = new Scanner(System.in); // This line make scanner class's object . Object name is sc
         // Working of this object -> This object helps me to take input from user.
-
+        System.out.println("Enter Integer Value -> ");
         int firstuserinput = sc.nextInt();
-        System.out.println(firstuserinput);
+        System.out.println("The value is ->"+firstuserinput);
+
+        sc.close();
     }
 }
