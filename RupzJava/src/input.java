@@ -14,6 +14,20 @@ public class input {
         int firstuserinput = sc.nextInt();
         System.out.println("The value is ->"+firstuserinput);
 
+
+
+        // All types of data as an userinput
+
+        // Boolean 
+        System.out.println("Enter Boolean Value -> ");
+        boolean num1 = sc.nextBoolean();
+        System.out.println("The boolean value is : -> "+ num1);
+
+        // String Value as an user input 
+        System.out.println("Enter Your name:-> ");
+        String myname = sc.next();
+         System.out.println("Your name is :->"+myname);
+
         sc.close();
     }
 }
