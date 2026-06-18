@@ -8,7 +8,7 @@ public class lenovo {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number for days--->  ");
         int days = sc.nextInt();
-        switch (days) {
+        switch (days) {  // In this line we need to put Expression 
             case 1:
                 System.out.println("Monday");
                 break;
