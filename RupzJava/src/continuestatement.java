@@ -4,7 +4,7 @@ public class continuestatement {
 
         for (int i = 1; i<=10;i++){
             if (i==8){
-                System.out.println("Skipped"+ i);
+                System.out.println("Skipped -> "+ i);
                 continue;
             }
             System.out.println(i);
