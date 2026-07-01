@@ -9,7 +9,7 @@ public class parameter {
     static void parameterfunc(int a, int b) {  // in this part called Parameter
         System.err.println(a + b);
     }
-     static int multiply(int value1, int value2){
+     static int multiply(int value1, int value2){  // Non Void Function
          int result = value1*value2;
          return result;
      }
