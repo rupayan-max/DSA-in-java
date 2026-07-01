@@ -5,8 +5,10 @@ public class meth {
         rup();
         System.out.println("Exit");
     }
-    static void rup(){
-        System.out.println("Babbar");
+    static void rup(){ // Normal Function
+        for(int num = 1 ; num <=10; num++){
+             System.out.println(num +"x" + 2 +"="+num*2);
+        }
        }
 
 }
