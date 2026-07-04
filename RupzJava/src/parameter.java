@@ -15,4 +15,8 @@ public class parameter {
         return result;
     }
 
+    static int noni(int v3,int v6){
+         int rs = v3-v6;
+         return rs;
+    }  
 }
