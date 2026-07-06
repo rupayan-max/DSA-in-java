@@ -3,8 +3,8 @@ public class callbyvalue {
     public static void main(String[] args) {
         // Call By value 
          int num = 5 ;
-         solve(num);
-         System.out.println(num);  
+         solve(num);  // Output is 50
+         System.out.println(num);  // Output is 5 
     }
 
     // Solve Method 
